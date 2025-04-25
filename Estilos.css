@@ -1,0 +1,16 @@
+#formulario1 {
+    background-color: brown;
+    padding: 10px;
+    margin-right: 400px;
+    border-radius: 15px;
+    box-shadow: 10px 0 10px rgba(1, 2, 3, 0.5);
+}
+
+
+img {
+    width:420px;
+    height:300px;
+    border-radius: 15px;
+    box-shadow: 10px 0 10px rgba(1, 2, 3, 0.5);
+    padding: 10px;
+}
