@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <style>
+        table, tr, th, td{
+            border: 1px solid;
+        }
+    </style>
+
+
+
+
+<body>
+
+    
+    <img src="C:\Users\alumnosnunoa\Desktop\frontend\hola.png" id="holas">
+
+
+       <!-- Tablas-->
+       <table style="width: 400px;">
+            <thead>
+                <tr>
+                    <th>PRO<span style="color: red;">DUC</span>TOS</th>
+                    <th>PRECIOS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cafe</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>Pan con queso</td>
+                    <td>2000</td>
+                </tr>
+                <tr>
+                    <td>Piscola</td>
+                    <td>3000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td align="right">Total: </td>
+                    <td>6000</td>
+                </tr>
+            </tfoot>
+    </table> <br><br>
+
+
+    <!-- Listas -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+
+    <br><hr>
+
+    <ol> <!-- lista anidada  , ademas ol es ordenada-->
+        <li value="3">Item</li>
+        <ol>
+            <li>Hola</li>
+            <ul>
+                <li style="list-style-type: lower-roman;">Soy</li>
+                <li style="list-style-type: upper-latin;">Parte de</li>
+                <li style="list-style-type: lower-roman;">Una lista</li>
+                <li style="list-style-type: upper-alpha;">Anidada my friend</li>
+            </ul>
+            <li>Chao</li>
+        </ol>
+        <li>Item</li>
+    </ol> <BR></BR>
+
+
+    <!-- Formulario, text, checkbox, password, radio, file-->
+    <h2>Formulario de Contacto</h2>
+    <form action="/formulario" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre"><br><br>
+        
+        <label for="Apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese apellido"><br><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input value="@" type="email" id="email" name="email" placeholder="Ingresa email"><br><br>
+
+        <label for="telefono">Telefono: </label>
+        <input value="+56 9 " type="text" id="telefono" name="celular" placeholder="Ingrese el celular"><br><br>
+
+        <label for="clave">Clave:</label>
+        <input type="password" name="clave" id="clave"><br><br>
+        
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+        
+        <button style="color: blueviolet;" type="reset">Borrar</button>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
